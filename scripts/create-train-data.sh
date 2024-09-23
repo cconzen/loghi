@@ -1,5 +1,8 @@
 #!/bin/bash
-VERSION=2.1.2
+VERSION=2.1.4
+set -e
+set -o pipefail
+
 
 # User-configurable parameters
 # Percentage split for training and validation sets
